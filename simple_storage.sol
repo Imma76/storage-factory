@@ -3,7 +3,7 @@ pragma solidity ^0.8.7;
  
 contract SimpleStorage{
     uint256 public chikasNumber;
-    function assignNumber(uint256 newNumber)public{
+    function assignNumber(uint256 newNumber)public virtual{
         chikasNumber = newNumber;
     }
     struct Car{
